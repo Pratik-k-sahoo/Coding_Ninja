@@ -1,0 +1,59 @@
+Problem statement
+You are given a matrix ‘mat’ of ‘N’ rows and ‘M’ columns. Your task is to return the Zig-Zag order of the matrix.
+
+The Zig-Zag order of a 5 x 5 matrix is given below
+
+
+For example:
+You are a given the matrix -: 
+    ‘mat’ = [[1, 2, 3], 
+            [4, 5, 6], 
+            [7, 8, 9]]
+Here the Zig-Zag order of the given matrix is [1, 2, 4, 7, 5, 3, 6, 8, 9]. Hence the answer is [1, 2, 4, 7, 5, 3, 6, 8, 9].
+Detailed explanation ( Input/output format, Notes, Images )
+Constraints:
+1 <= T <= 10
+1 <= N, M <= 10^3
+0 <= mat[i][j] <= 10^9
+
+Time Limit: 1 sec
+Note:
+You do not need to print anything. It has already been taken care of. Just implement the function.
+Sample Input 1:
+2
+3 3
+1 2 3
+4 5 6
+7 8 9
+2 3
+4 5 6
+1 2 3
+Sample Output 1:
+1 2 4 7 5 3 6 8 9
+4 5 1 2 6 3
+Explanation:
+For the first test cases you are given, 
+   ‘mat’ = [[1, 2, 3], 
+            [4, 5, 6], 
+            [7, 8, 9]]
+Here the zigzag order of the given matrix is [1, 2, 4, 7, 5, 3, 6, 8, 9]. Hence the answer is [1, 2, 4, 7, 5, 3, 6, 8, 9].
+
+For the second test cases you are given, 
+     ‘mat’ = [[4, 5, 6], 
+              [1, 2, 3]]
+Here the zigzag order of the given matrix is [4, 5, 1, 2, 6, 3]. Hence the answer is [4, 5, 1, 2, 6, 3].
+Sample Input 2:
+2
+4 4
+7 6 0 2
+8 4 6 5
+3 4 0 4 
+5 4 6 3
+4 2
+0 5
+1 4
+2 6
+9 4
+Sample Output 2:
+7 6 8 3 4 0 2 6 4 5 4 0 5 4 6 3
+0 5 1 2 4 6 9 4
