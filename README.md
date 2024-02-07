@@ -5,4 +5,5 @@
  ### Day 03 <a href="https://www.codingninjas.com/studio/problem-of-the-day?date=2024-02-02&difficulty=hard">PROBLEM 3</a>
  ### Day 04 <a href="https://www.codingninjas.com/studio/problem-of-the-day?difficulty=easy">PROBLEM 4</a>
  ### Day 05 <a href="https://www.codingninjas.com/studio/problem-of-the-day?date=2024-02-06&difficulty=hard">PROBLEM 5</a>
- ### Day 06 <a href="https://pratik-k-sahoo.github.io/coming-soon/">PROBLEM 6</a>
+ ### Day 06 <a href="https://www.codingninjas.com/studio/problems/stocks-are-profitable_893405?topList=top-array-coding-interview-questions&problemListRedirection=true&leftPanelTabValue=PROBLEM%3Futm_source%3Dcampus-ambassador&utm_medium=ET&utm_campaign=CNDOJO">PROBLEM 6</a>
+ ### Day 07 <a href="https://pratik-k-sahoo.github.io/coming-soon/">PROBLEM 7</a>
